@@ -1,0 +1,19 @@
+android_app_import {
+	name: "FossifyFileManager",
+	apk: "FossifyFileManager.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: true,
+	},
+	preprocessed: true,
+	overrides: ["DocumentsUI"],
+	required: ["fossifyfilemanager-permissions.xml"],
+	vendor: true,
+}
+
+prebuilt_etc {
+	name: "fossifyfilemanager-permissions.xml",
+	src: "fossifyfilemanager-permissions.xml",
+	sub_dir: "default-permissions",
+	vendor: true,
+}

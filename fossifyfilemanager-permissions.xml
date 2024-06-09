@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+    <exception package="org.fossify.filemanager">
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false" />
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES" fixed="false" />
+        <permission name="android.permission.MANAGE_EXTERNAL_STORAGE" fixed="false" />
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
+</exceptions>
